@@ -21,7 +21,7 @@ app.use("/api/v1", routes);
 // Express No Route middleware
 app.use("*", (req, res, next) => {
   res.status(404).json({
-    message: No route ${req.originalUrl} available in this server,
+    message: `No route ${req.originalUrl} available in this server`,
     success: false,
   });
   next();
