@@ -3,6 +3,7 @@
 * Write an api that will input two files from the user one is source and second is object that would be remove from source image.
 * Integrate a free http://phot.ai account with service to call the third-party api Object remove.
 * Handle the apis error on your side in a proper format.
+* Mask Image should be the tracing object.
 
 # Execution without Docker
 
