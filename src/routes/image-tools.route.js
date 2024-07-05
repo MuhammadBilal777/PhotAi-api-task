@@ -1,6 +1,6 @@
 import express from "express";
 import { imageToolController } from "#controllers";
-import { multer } from "#middlewares";
+import { multer, rateLimiter } from "#middlewares";
 
 const router = express.Router();
 
@@ -27,6 +27,10 @@ const router = express.Router();
  */
 router
   .route("/object-remove")
-  .post(multer.single("sourceImage"), imageToolController.removeObject);
+  .post(
+    rateLimiter,
+    multer.single("sourceImage"),
+    imageToolController.removeObject
+  );
 
 export default router;
