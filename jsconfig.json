@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "#config": ["config/*"],
+        "#apis": ["apis/*"],
+        "#services": ["services/*"],
+        "#controllers": ["controllers/*"],
+        "#middlewares": ["middlewares/*"],
+        "#utils": ["utils/*"],
+        "#validations": ["validations/*"]
+      }
+    },
+    "include": ["src"]
+  }
+  

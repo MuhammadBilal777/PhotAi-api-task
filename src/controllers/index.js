@@ -1,0 +1,1 @@
+export {default as imageToolController} from './image-tool.controller.js'

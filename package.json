@@ -1,0 +1,38 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "./src/server.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cloudinary": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^7.3.1",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.13.3",
+    "mime-types": "^2.1.35",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "imports": {
+    "#config": "./src/config/index.js",
+    "#apis": "./src/apis/index.js",
+    "#services": "./src/services/index.js",
+    "#controllers": "./src/controllers/index.js",
+    "#middlewares": "./src/middlewares/index.js",
+    "#utils": "./src/utils/index.js",
+    "#validations": "./src/validations/index.js"
+  }
+}

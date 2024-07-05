@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "js",
+  "ignore": ["node_modules", "public"],
+  "exec": "set DEBUG=http & set NODE_ENV=dev && node src/server.js"
+}
